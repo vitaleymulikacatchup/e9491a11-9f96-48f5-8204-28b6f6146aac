@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -109,8 +109,6 @@ export default function LandingPage() {
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground="noInvert"
-          titleClassName="text-4xl font-bold"
-          descriptionClassName="text-lg"
         />
       </div>
 
@@ -157,8 +155,6 @@ export default function LandingPage() {
           containerStyle="default"
           textboxLayout="default"
           useInvertedBackground="noInvert"
-          titleClassName="text-4xl font-bold"
-          descriptionClassName="text-lg"
         />
       </div>
 
@@ -227,8 +223,6 @@ export default function LandingPage() {
           variant="card"
           textboxLayout="default"
           useInvertedBackground="noInvert"
-          titleClassName="text-4xl font-bold"
-          descriptionClassName="text-lg"
         />
       </div>
 
@@ -276,8 +270,6 @@ export default function LandingPage() {
               content: "We offer a 7-day satisfaction guarantee on all purchases. If you're not completely satisfied with your vehicle, return it for a full refund, no questions asked. Your confidence in our vehicles is paramount to us."
             }
           ]}
-          titleClassName="text-4xl font-bold"
-          descriptionClassName="text-lg"
         />
       </div>
 
@@ -325,9 +317,6 @@ export default function LandingPage() {
             }
           ]}
           copyrightText="© 2024 Premium Cars. All rights reserved."
-          logoTextClassName="text-3xl font-bold"
-          columnTitleClassName="font-semibold text-lg"
-          columnItemClassName="hover:text-primary-cta transition-colors"
         />
       </div>
     </ThemeProvider>
